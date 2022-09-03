@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink">
+   <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+   <title></title>
+   <desc>Created with Sketch.</desc>
+   <g id="库存+供货商+员工+合同-管理" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+      <g id="员工管理" transform="translate(-382.000000, -332.000000)">
+         <g id="-mockplus-" transform="translate(382.000000, 332.000000)">
+            <g id="编组-15">
+               <g>
+                  <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="16" height="16"></rect>
+                  <g id="编组-10" transform="translate(2.000000, 1.000000)">
+                     <polygon id="矩形" fill="#1664FF"
+                        transform="translate(10.852026, 12.012341) scale(-1, 1) rotate(46.000000) translate(-10.852026, -12.012341) "
+                        points="8 11 12.5860018 11.0246814 13.7040521 12.0246814 12.5860018 13.0246814 8 13"></polygon>
+                     <path
+                        d="M1,0 L11,0 C11.5522847,-1.01453063e-16 12,0.44771525 12,1 L12,8.03157984 L12,8.03157984 L7.03261506,13 L1,13 C0.44771525,13 6.76353751e-17,12.5522847 0,12 L0,1 C-6.76353751e-17,0.44771525 0.44771525,1.01453063e-16 1,0 Z"
+                        id="矩形" fill="#1664FF"></path>
+                     <rect id="矩形" fill="#FFFFFF" x="2" y="2" width="4" height="1"></rect>
+                     <rect id="矩形备份-2" fill="#FFFFFF" x="2" y="5" width="6" height="1"></rect>
+                  </g>
+               </g>
+            </g>
+         </g>
+      </g>
+   </g>
+</svg>

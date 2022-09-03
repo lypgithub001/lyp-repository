@@ -1,0 +1,42 @@
+@mixin scrollBar() {
+  &::-webkit-scrollbar {
+    width: 8px;
+    /*高宽分别对应横竖滚动条的尺寸*/
+    height: 8px;
+    display: block;
+  }
+
+  &::-webkit-scrollbar-track {
+    /*滚动条里面轨道*/
+    border-radius: 8px;
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    /*滚动条里面小方块*/
+    border-radius: 8px;
+    background: #d8dae3;
+  }
+}
+
+//  三点省略 支持单行多行
+// Mixin { n:Number } n：省略行数限制
+@mixin ellipsis($n) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+
+  @if ($n > 1) {
+    word-break: break-all;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: $n;
+    -webkit-box-align: center;
+    -webkit-box-pack: start;
+    /* 这里是超出几行省略 */
+  }
+
+  @else {
+    white-space: nowrap;
+  }
+}

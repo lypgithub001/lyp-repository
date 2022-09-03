@@ -1,0 +1,119 @@
+/* 滑动条高度、边框、背景色等 */
+#nc :deep(._nc .stage1 .slider),
+#registerNc :deep(._nc .stage1 .slider),
+#wxNc :deep(._nc .stage1 .slider) {
+  height: 40px;
+  width: 327px;
+  box-shadow: 0 0 1px #999;
+  background-color: #e8e8e8;
+  position: relative;
+  left: 1px;
+}
+
+#nc :deep(._nc .stage),
+#registerNc :deep(._nc .stage),
+#wxNc :deep(._nc .stage) {
+  padding: 0 0;
+}
+
+/* 滑动条 */
+#nc :deep(._nc .stage1 .track div),
+#registerNc :deep(._nc .stage1 .track div),
+#wxNc :deep(._nc .stage1 .track div) {
+  color: #fff;
+  line-height: 40px;
+  height: 40px;
+  font-size: 14px;
+}
+
+#nc :deep(._nc .stage1 .label),
+#registerNc :deep(._nc .stage1 .label),
+#wxNc :deep(._nc .stage1 .label) {
+  color: #fff;
+  line-height: 40px;
+  height: 40px;
+  font-size: 14px;
+}
+
+/* 滑动条背景色-正常 */
+#nc :deep(._nc .stage1 .bg-green),
+#registerNc :deep(._nc .stage1 .bg-green),
+#wxNc :deep(._nc .stage1 .bg-green) {
+  background-color: #10c77e;
+}
+
+#nc :deep(._nc .icon-ok) #registerNc :deep(._nc .icon-ok),
+#wxNc :deep(._nc .icon-ok) {
+  color: #10c77e;
+}
+
+/* 滑动条背景色-失败 */
+#nc :deep(._nc .stage1 .bg-red),
+#registerNc :deep(._nc .stage1 .bg-red),
+#wxNc :deep(._nc .stage1 .bg-red) {
+  background-color: #7cc146;
+}
+
+/* 刷新链接 */
+#nc :deep(._nc .stage3 .menu.refresh),
+#registerNc :deep(._nc .stage3 .menu.refresh),
+#wxNc :deep(._nc .stage3 .menu.refresh) {
+  left: 76%;
+  top: 1px;
+  transform: translateX(-50%);
+}
+/* 刷新链接title */
+#nc :deep(._nc .stage3 .title),
+#registerNc :deep(._nc .stage3 .title),
+#wxNc :deep(._nc .stage3 .title) {
+  text-align: left;
+}
+/* 刷新链接按钮 */
+#nc :deep(._nc .stage3 .menu .label),
+#registerNc :deep(._nc .stage3 .menu .label),
+#wxNc :deep(._nc .stage3 .menu .label) {
+  top: -5px;
+}
+
+#nc :deep(._nc .stage3),
+#registerNc :deep(._nc .stage3),
+#wxNc :deep(._nc .stage3) {
+  height: 70px;
+}
+
+#nc :deep(._nc .stage3 .menu.feedback),
+#registerNc :deep(._nc .stage3 .menu.feedback),
+#wxNc :deep(._nc .stage3 .menu.feedback) {
+  display: none;
+}
+
+#nc :deep(._nc .stage3 .menu.nc-sep),
+#registerNc :deep(._nc .stage3 .menu.nc-sep),
+#wxNc :deep(._nc .stage3 .menu.nc-sep) {
+  display: none;
+}
+
+#nc :deep(._nc .stage1 .button),
+#registerNc :deep(._nc .stage1 .button),
+#wxNc :deep(._nc .stage1 .button) {
+  height: 40px;
+  width: 40px;
+}
+
+#nc :deep(._nc .icon-ok),
+#registerNc :deep(._nc .icon-ok),
+#wxNc :deep(._nc .icon-ok) {
+  font-size: 20px;
+}
+
+#nc :deep(._nc .stage1 .icon),
+#registerNc :deep(._nc .stage1 .icon),
+#wxNc :deep(._nc .stage1 .icon) {
+  top: 6px;
+}
+
+#nc :deep(._nc .icon-slide-arrow),
+#registerNc :deep(._nc .icon-slide-arrow),
+#wxNc :deep(._nc .icon-slide-arrow) {
+  font-size: 20px;
+}
